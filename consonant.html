@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check consonant</title>
+</head>
+<body>
+    <label>Character : </label><input type="text" name="" id="char" maxlength="1"><br><br>
+    <button onclick="vowel()">click</button>
+    <script lang="javascript">
+        function vowel(){
+     var char=document.getElementById("char").value; //vowel
+     if(char === 'a' || char==='e'||char==='i'||char==='o'||char==='u'||
+     char ==='A'||char==='E'||char=="I"||char==='O'|char==='U'){
+         window.alert("its a vowel");
+     }
+     else{
+         window.alert("its a consonent");
+     }
+
+    }
+
+
+    </script>
+</body>
+</html>
